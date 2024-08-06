@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+        h1, h2, p {
+            text-align: center;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+        .social-links li {
+            margin: 0 10px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+        }
+        .stack {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .stack div {
+            margin: 10px;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="your-photo.jpg" alt="Ваше фото" class="profile-pic">
+        <h1>Александр Михайлов</h1>
+        <p>Обо мне: Привет! Меня зовут Александр, и я QA инженер. Я обладаю многолетним опытом в тестировании ПО, и моя страсть — это создание качественных продуктов для "Наших" клиентов.
+</p>
+        
+        <h2>Контакты</h2>
+        <ul class="social-links">
+            <li><a href="http://t.me/El_Magnifico_Aleksandr">telegram</a></li>
+            <li><a href="mailto:elmagnifico88@yandex.ru">email</a></li>
+            <li><a href="https://github.com/Aleksandr-Mikhailov-QA/CV">Github</a></li>
+            </ul>
+        
+        <h2>Мой Стэк</h2>
+        <div class="stack">
+            <div>Postman</div>
+            <div>Charles</div>
+            <div>DevTools</div>
+            <div>TMS</div>
+            </div>
+    </div>
+</body>
+</html>
